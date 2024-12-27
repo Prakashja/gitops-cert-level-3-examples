@@ -11,7 +11,8 @@ spec:
       github:
         owner: Prakashja
         repo: gitops-cert-level-3-examples
-      branchMatch: "preview-ready"
+        filters:
+          - branchMatch: ".*-argocd"
       requeueAfterSeconds: 180
   template:
     metadata:
