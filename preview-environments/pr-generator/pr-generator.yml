@@ -12,7 +12,7 @@ spec:
         owner: Prakashja
         repo: gitops-cert-level-3-examples
         labels: ["preview-ready"]
-      requeueAfterSeconds: 180
+      requeu:eAfterSeconds: 180
   template:
     metadata:
       name: 'myapp-{{.branch}}'
