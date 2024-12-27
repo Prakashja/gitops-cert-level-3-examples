@@ -11,8 +11,7 @@ spec:
       github:
         owner: Prakashja
         repo: gitops-cert-level-3-examples
-        filters:
-          - branchMatch: "preview-ready"
+        branchMatch: "preview-ready"
       requeueAfterSeconds: 180
   template:
     metadata:
